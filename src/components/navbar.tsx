@@ -13,13 +13,13 @@ export default function Navbar() {
         {/* 메뉴 */}
         <div className="flex items-center gap-6 text-gray-200 font-medium">
           <Link
-            href="/schedule"
+            href="/calendar"
             className="hover:text-black transition-colors duration-200"
           >
             시간표
           </Link>
           <Link
-            href="/calendar"
+            href="/scheduler"
             className="hover:text-black transition-colors duration-200"
           >
             일정{/* 과제•시험 일정 관리  */}
